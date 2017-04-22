@@ -1,39 +1,31 @@
-# Site settings
-title: Linux系统运维开发笔记
-email: openstring@126.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.juancloud.net" # the base hostname & protocol for your site
+permalink: /:year/:month/:day/:title.html
+markdown: redcarpet
+redcarpet:
+   extensions: ["hard_wrap","autolink","tables","fenced_code_blocks","disable_indented_code_blocks","no_intra_emphasis","space_after_headers","underline"]
 
+# 作者信息
+author: 
+  name: jasee
+  email: jaseetao@gmail.com
+  link: http://opjasee.com
+  weibo: http://weibo.com/justatree
+  github: http://github.com/jasee
 
-# Sidebar filter
-# Choose 'tag' or 'category' as filter in sidebar.
-filter: 'tag'
+# 站点信息
+title: 单线程
+description: 君子生非异也，善假于物也 
+url: http://opjasee.com
+rss_url: /pages/atom.xml
 
-# Social account
-# twitter:  username
-# weibo:    ID
-github:   linkpwd
-# codepen:  username
-# dribbble: username
+# gavatar头像及Favicon
+avatar: /public/upload/avatar/avatar.png
+favicon: /public/upload/avatar/favicon.ico
 
+# google analytics 设置
+ga:
+  id: UA-44312631-1
+  url: opjasee.com
 
-# Comment
-# disqus_shortname: discussion_shortname
-
-
-# Google Analytics
-# google_analytics: tracking_ID
-
-
-# Build settings
-markdown: kramdown
-sass:
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-theme: jekyll-theme-leap-day
+# disqus 设置
+disqus:
+  shortname: jasee
