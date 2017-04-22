@@ -5,27 +5,17 @@ redcarpet:
 
 # 作者信息
 author: 
-  name: jasee
-  email: jaseetao@gmail.com
-  link: http://opjasee.com
-  weibo: http://weibo.com/justatree
-  github: http://github.com/jasee
+  name: linkpwd
+  email: l8nkp2d@gmail.com
+  link: http://linkpwd.github.io
+  github: http://github.com/linkpwd
 
 # 站点信息
-title: 单线程
-description: 君子生非异也，善假于物也 
-url: http://opjasee.com
-rss_url: /pages/atom.xml
+title: Linux运维开发记录－－linkpwd的个人笔记
+description: 记录个人的学习生活笔记，记录个人的学习足迹：包括但不限于读书笔记，Linux运维自动化，监控，shell|python脚本，安全效率工具．　
+url: http://linkpwd.github.io
 
 # gavatar头像及Favicon
 avatar: /public/upload/avatar/avatar.png
 favicon: /public/upload/avatar/favicon.ico
 
-# google analytics 设置
-ga:
-  id: UA-44312631-1
-  url: opjasee.com
-
-# disqus 设置
-disqus:
-  shortname: jasee
